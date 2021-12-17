@@ -1,6 +1,6 @@
 import Button from '@mui/material/Button';
 
-const quoteStyle = {
+const messageStyle = {
     color: 'black',
     borderColor: 'black',
     backgroundColor: '#eeeeee',
@@ -10,7 +10,7 @@ const quoteStyle = {
 
 export const NewQuoteButton = (props) => (
 
-    <Button id="new-quote" variant="outlined" onClick = {props.onButtonClick} style = {quoteStyle}>
+    <Button id="new-quote" variant="outlined" onClick = {props.onButtonClick} style = {messageStyle}>
         NEXT QUOTE
     </Button>  
     
