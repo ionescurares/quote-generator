@@ -39,8 +39,8 @@ class App extends React.Component {
   
   render() {
     return (      
-      <Container fixed>
-        <Grid container direction="column" alignItems="center" justifyContent="center" style={mainGrid}>
+      <Container fixed id="quote-box" >
+        <Grid container direction="column" alignItems="center" justifyContent="center" style={mainGrid} >
           <Grid item xs={12} style={this.state.gridStyle}>
             <Item style={quoteStyle}>
               <Quote quote={ this.state.quote } />
